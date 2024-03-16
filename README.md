@@ -20,7 +20,7 @@ O primeiro exercício será composto por 2 partes, onde iremos controlar um LED 
 
 Para ambos os exercícios iremos utilizar o mesmo circuito, portanto monte-o de acordo com a imagem abaixo:
 
-![Circuito do Blink](exercicios/imagens/blink.png)
+![Circuito do Exercício 1](exercicios/imagens/exercicio_1.png)
 
 ## Exercício 1.1: Blink
 A primeira parte do exercício é o Blink, o clássico Hello World da programação embarcada.
@@ -39,7 +39,7 @@ Nesse exercício, iremos ler o valor do potenciômetro e exibir no terminal.
 
 Para esse exercício, monte o circuito de acordo com a imagem abaixo:
 
-![Circuito do Potenciômetro](exercicios/imagens/potenciometro.png)
+![Circuito do Exercício 2](exercicios/imagens/exercicio_2.png)
 
 A resolução desse exercício pode ser encontrada no [Exercício 2](exercicios/exercicio_2.py).
 
@@ -82,7 +82,11 @@ Para finalizar o tutorial, após ter feito todos os exercícios você estará pr
 
 <b>Controle o LED de uma das placas ESP32 utilizando o potenciômetro da outra placa ESP32.</b>
 
-Para isso, use uma das placas para publicar o valor do potenciômetro em um tópico, enquanto a outra placa irá subscrever no mesmo tópico e utilizar o valor lido para controlar o LED.
+Use uma das placas para publicar o valor do potenciômetro em um tópico, enquanto a outra placa irá subscrever no mesmo tópico e utilizar o valor lido para controlar o LED.
+
+Para esse desafio, monte o circuito de acordo com a imagem abaixo:
+
+![Circuito do Desafio](exercicios/imagens/desafio.png)
 
 <i>Não se esqueça de salvar os códigos anteriores no computador caso não queira sobrescrevê-los.</i>
 
