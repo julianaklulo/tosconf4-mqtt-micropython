@@ -8,6 +8,11 @@ Ele possui recursos avançados, como prompt interativo, list comprehensions, gen
 
 Além disso, o MicroPython pretende ser o mais compatível possível com o Python normal para permitir a transferência de código com facilidade do desktop para um microcontrolador ou sistema embarcado.
 
+# Sobre a ESP32
+A ESP32 é um kit de desenvolvimento de baixo custo com Wi-Fi e Bluetooth integrados, que é baseado no microcontrolador ESP32 da Espressif Systems. Ela possui 34 pinos de entrada/saída, dos quais 23 podem ser usados como GPIOs.
+
+Nesse tutorial iremos utilizar a placa ESP32, porém outras placas com Wi-Fi e suporte ao MicroPython também podem ser utilizadas. 
+
 ## Exercício 0: Instalando o Thonny
 Iremos utilizar a IDE Thonny para realizar a edição do código e gerenciamento dos arquivos na placa.
 
