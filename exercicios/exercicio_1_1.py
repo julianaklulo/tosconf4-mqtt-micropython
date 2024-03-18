@@ -1,5 +1,5 @@
 """
-Exercício 1: Blink do MicroPython.
+Exercício 1.1: Blink do MicroPython.
 """
 from machine import Pin
 from time import sleep

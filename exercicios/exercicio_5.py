@@ -1,5 +1,5 @@
 """
-Publisher no ESP32.
+Exercício 5: Publisher no ESP32.
 
 Esse script irá publicar uma mensagem num tópico do broker.
 Use o broker "broker.hivemq.com" para testar a comunicação,

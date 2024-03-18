@@ -1,5 +1,5 @@
 """
-Subscriber no ESP32.
+Exercício 6: Subscriber no ESP32.
 
 Esse script irá receber mensagens de um tópico do broker.
 Use o broker "broker.hivemq.com" para testar a comunicação,

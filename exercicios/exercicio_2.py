@@ -1,5 +1,5 @@
 """
-Exercício 3: Potenciômetro.
+Exercício 2: Potenciômetro.
 """
 from machine import Pin, ADC
 from time import sleep

@@ -1,5 +1,5 @@
 """
-Exercício 2: Fade do MicroPython.
+Exercício 1.2: Fade do MicroPython.
 """
 from machine import Pin, PWM
 from time import sleep
