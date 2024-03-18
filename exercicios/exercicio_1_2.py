@@ -6,14 +6,14 @@ from time import sleep
 
 LED_PIN = PWM(Pin(16))
 
-min = 0
-max = 65535
+MIN = 0
+MAX = 65535
 
 while True:
-    for i in range(min, max + 1):
-        LED_PIN.dutu_u16(i)
+    for i in range(MIN, MAX + 1):
+        LED_PIN.duty_u16(i)
         sleep(0.1)
 
-    for i in range(max, min - 1, -1):
-        LED_PIN.dutu_u16(i)
+    for i in range(MAX, MIN - 1, -1):
+        LED_PIN.duty_u16(i)
         sleep(0.1)
