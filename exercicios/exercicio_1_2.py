@@ -4,8 +4,8 @@ Exercício 1.2: Fade do MicroPython.
 from machine import Pin, PWM
 from time import sleep
 
-LED_PIN = PWM(Pin(16))
 
+LED_PIN = PWM(Pin(4))
 MIN = 0
 MAX = 65535
 

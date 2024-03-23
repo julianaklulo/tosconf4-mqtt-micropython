@@ -4,6 +4,7 @@ Exercício 2: Potenciômetro.
 from machine import Pin, ADC
 from time import sleep
 
+
 POT_PIN = ADC(Pin(34))
 
 while True:

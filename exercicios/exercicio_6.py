@@ -23,13 +23,13 @@ def callback_message(topic: bytes, data: bytes):
 
 client = MQTTClient("subscriber", SERVER, port=PORT, keepalive=10)
 client.set_callback(callback_message)
-
+client.connect()
 
 while True:
     try:
-        client.connect()
         client.subscribe(TOPIC)
         client.wait_msg()  # função bloqueante
-    except Exception:
-        print("Failed to receive message, disconnecting.")
+    except:
+        print("Falha ao receber mensagem")
         client.disconnect()
+        client.connect()

@@ -13,10 +13,14 @@ PORT = 1883
 TOPIC = b""  # crie um nome único para não conflitar com outros usuários
 
 client = MQTTClient("publisher", SERVER, port=PORT, keepalive=30)
-
+client.connect()
 
 while True:
     message = f"Testando o tópico {TOPIC}"
-    client.connect()
-    client.publish(TOPIC, message)
-    client.disconnect()
+
+    try:
+        client.publish(TOPIC, message)
+    except:
+        print("Envio da mensagem falhou")
+        client.disconnect()
+        client.connect()
